@@ -33,6 +33,11 @@ abstractizari pt. flexibilitate si mentabilitate
 
 Application: Controllers, EventHandlers,
 -> In Controller luam Comenzi ca si RequestBody si Query ca sa interogam entitatea 
+
 Core: Model, Ports(userServiceInterface ex. e portIn)
+
 Infrastructure: mappers,  DaoAdapter, EventPublisherAdapter, ConfigurationClasses, la DaoAdapter, in acest caz folosim clasele si interfata noastra, in RunTime, Spring creaza o Implementare a interfetei ce extinde JpaRepository
 ...dar conform teoriei ar trebui sa fim agnostici de framework
+
+![Hexagonal](https://user-images.githubusercontent.com/77500802/147771763-0ff15194-ed2c-4da1-b387-0a939d6ba0a5.PNG)
+
