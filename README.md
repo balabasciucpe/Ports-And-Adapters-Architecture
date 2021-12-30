@@ -1,4 +1,4 @@
-                                                       Ports-And-Adapters-Architecture
+                                             Ports-And-Adapters-Architecture
                                                                            
 An example of how to use Hexagonal Architecture in the Java World conform Domain Driven Design...
 
